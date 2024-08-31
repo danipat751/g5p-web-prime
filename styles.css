@@ -1,0 +1,103 @@
+/* Estilos básicos para el sitio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Estilo para el botón de regreso */
+.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-back:hover {
+    background-color: #555;
+}
+
+/* Estilo para el selector de idioma */
+.language-selector {
+    text-align: right;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+
+.language-selector a {
+    color: white; /* Cambié el color a blanco para que se vea sobre el fondo verde */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.language-selector a:hover {
+    text-decoration: underline;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
